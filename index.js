@@ -63,9 +63,9 @@ module.exports = function(options) {
     }
 
     this.body = res.body;
-  };
 
-  return yield* next;
+    return yield* next;
+  };
 };
 
 
